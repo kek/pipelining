@@ -1,7 +1,8 @@
 # Pipelining
 
-A pipe takes an object and a block which contains methods to call on the object
-in sequence.
+The pipe function takes an object and a block which contains a sequence of
+messages to send to the object, each time passing on the result to the next
+one.
 
 ## Installation
 
